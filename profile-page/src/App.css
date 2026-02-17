@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile-card {
+  background-color: white;
+  border: solid black 1px;
+  border-radius: 4px;
+  padding: 16px 12px;
+  margin: 30px;
+  max-width: 500px;
+  transition: 0.2s;
+}
+
+.profile-card:hover {
+  transition: 0.3s;
+  box-shadow: 0px 0px 4px rgba(18, 19, 20, 0.6);
+}
+
+.profile-cont {
+  background-color: rgb(213, 213, 214);
+  padding: 20px;
+}
+
+.name-span {
+  display: block;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 8px;
+}
